@@ -6,7 +6,7 @@ This repository is organised into four folders, each correponding to each exampl
 
 Each folder contains:
 
-    Example_Data_Gen.m - which is used to generate and preprocess the datasets. It contains explicit, step-by-step running explanationsa accompanied by variable definitions.
+    Example_Data_Gen.m - which is used to generate and preprocess the datasets. It contains explicit, step-by-step running explanationsa accompanied by variable definitions. It generates points.mat (the whole dataset), training.mat, testing.mat (train-test data split) and matrices.mat (in the cases of Example A and B).
     points.mat - which is the matfile that contains the whole dataset.
     training.mat and testing.mat - which are the matfiles that contain the training/testing datasets (after splitting points.mat).
 
